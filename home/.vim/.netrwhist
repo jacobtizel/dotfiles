@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/tizreader'
+let g:netrw_dirhist_5='/home/tizreader/.vim'
+let g:netrw_dirhist_4='/home/tizreader/.vim/JTVim'
+let g:netrw_dirhist_3='/home/tizreader/LearningC'
+let g:netrw_dirhist_2='/home/tizreader'
+let g:netrw_dirhist_1='/home/tizreader/LearningC'
+let g:netrw_dirhist_0='/home/tizreader'
+let g:netrw_dirhist_9='/home/tizreader/.vim'
+let g:netrw_dirhist_8='/'
+let g:netrw_dirhist_7='/lost+found'
