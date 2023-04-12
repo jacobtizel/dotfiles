@@ -105,3 +105,6 @@ export NVM_DIR="$HOME/.nvm"
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
 homeshick --quiet refresh
+
+export VISUAL=vim
+export EDITOR=vim

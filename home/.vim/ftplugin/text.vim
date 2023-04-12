@@ -1,2 +1,1 @@
-set termguicolors
-colorscheme elflord
+../../.homesick/repos/dotfiles/home/.vim/ftplugin/text.vim
