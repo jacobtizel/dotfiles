@@ -29,9 +29,17 @@ colorscheme desert
 nnoremap <Leader>cc :set colorcolumn=80<cr>
 nnoremap <Leader>ncc :set colorcolumn-=80<cr>
 
+"page up/down centering:
+nnoremap <C-u> <C-u>zz
+nnoremap <C-d> <C-d>zz
+
 ":-line autocompletion
 set wildmenu
 set wildmode=longest:full,full
+set wildcharm=<C-z>
+
+"buffer listing
+nnoremap <Leader>b :buffer <C-z><S-Tab>
 
 "Status bar
 set laststatus=2
