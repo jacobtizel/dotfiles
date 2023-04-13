@@ -7,34 +7,34 @@ set shiftround
 set softtabstop=4
 set expandtab
 set autoindent
-set mouse=a "mouse functionality
-set ignorecase 
-set smartcase "ignore case with lowercase letters"
-set incsearch
-set autoread
-
-"Line numbers
-set number
-set relativenumber
-nnoremap <Leader>ln :set relativenumber!<cr>
-
-"Text wrapping beyond screen length
-set wrap
-
 "Themes
 set termguicolors
 colorscheme desert
 
+"Line numbers
+set number
+
 "80th column marker
 nnoremap <Leader>cc :set colorcolumn=80<cr>
 nnoremap <Leader>ncc :set colorcolumn-=80<cr>
+
+set mouse=a
+
+set ignorecase
+set smartcase
+set incsearch
+
+set autoread
 
 ":-line autocompletion
 set wildmenu
 set wildmode=longest:full,full
 
 "Status bar
-set laststatus=2
+"set laststatus=2
+
+"Text wrapping beyond screen length
+set wrap
 
 "Encoding
 set encoding=utf-8
