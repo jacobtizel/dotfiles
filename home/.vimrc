@@ -39,7 +39,7 @@ set wildmode=longest:full,full
 set wildcharm=<C-z>
 
 "buffer listing
-nnoremap <Leader>b :buffer <C-z><S-Tab>
+nnoremap <Leader>b :buffer <C-z>
 
 "Status bar
 set laststatus=2
