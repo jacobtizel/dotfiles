@@ -47,6 +47,8 @@ set laststatus=2
 "Encoding
 set encoding=utf-8
 
+set shell=bash\ --login
+
 "Call plugin config file, if available
 try
     source ~/.vim/JTVim/pluginconfig.vim
