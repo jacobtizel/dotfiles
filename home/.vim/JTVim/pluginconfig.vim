@@ -10,7 +10,9 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'justinmk/vim-sneak'
 
 call plug#end()
 
