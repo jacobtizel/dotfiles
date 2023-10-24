@@ -108,3 +108,6 @@ homeshick --quiet refresh
 
 export VISUAL=vim
 export EDITOR=vim
+
+# adding symlinks folder to easily move around Windows
+export CDPATH=~/symlinks
