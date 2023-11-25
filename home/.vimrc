@@ -48,7 +48,6 @@ set laststatus=2
 set encoding=utf-8
 
 if has('win32')
-  let $VIM = expand('$HOME\.vim')
   let &shell = has('win32') ? 'powershell' : 'pwsh'
   let &shellcmdflag = '-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;'
   let &shellredir = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
@@ -58,10 +57,11 @@ else
   set shell=bash\ --login
 endif
 
+let $VIM = expand('$HOME/.vim')
 
 "Call plugin config file, if available
 try
-    source $VIM\JTVim\pluginconfig.vim
+    source $VIM/JTVim/pluginconfig.vim
 catch
     echo 'plugins file not sourced properly'
 endtry
