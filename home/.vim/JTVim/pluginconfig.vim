@@ -17,8 +17,8 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-unimpaired'
 Plug 'natebosch/vim-lsc'
 
-source $VIM\plugconfig\airline.vim
-source $VIM\plugconfig\vim-lsc.vim
+source $VIM/plugconfig/airline.vim
+source $VIM/plugconfig/vim-lsc.vim
 
 if has('nvim')
 
@@ -32,10 +32,7 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
 "Code completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-source $VIM\plugconfig\telescope.vim
+source $VIM/plugconfig/telescope.vim
 endif
 
 call plug#end()
-
-
-
