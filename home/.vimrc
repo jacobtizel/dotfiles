@@ -1,6 +1,6 @@
 "Syntax highlighting
 syntax on
-"Tab/space options
+"Tab space options
 set tabstop=4
 set shiftwidth=4
 set shiftround
@@ -66,10 +66,13 @@ catch
     echo 'plugins file not sourced properly'
 endtry
 
-
 if exists("g:neovide")
     " Put anything you want to happen only in Neovide here
     let g:neovide_transparency = 0.95
     let g:neovide_theme = 'auto'
     let g:neovide_cursor_vfx_mode = "railgun"
+    let cwd = getcwd()
+    if cwd == 'C:\Program Files\Neovide'
+        exe 'cd ~'
+    endif
 endif
