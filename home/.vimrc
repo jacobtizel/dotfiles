@@ -41,6 +41,12 @@ set wildcharm=<C-z>
 "buffer listing
 nnoremap <Leader>b :buffer <C-z>
 
+"internal/external paste
+nnoremap <Leader>y "+y
+vnoremap <Leader>y "+y
+nnoremap <Leader>p "+p
+vnoremap <Leader>p "+p
+
 "Status bar
 set laststatus=2
 
@@ -54,10 +60,11 @@ if has('win32')
   let &shellpipe = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
   set shellquote= shellxquote=
 else
-  "set shell=bash\ --login
+  set shell=bash\ --login
 endif
 
 let $VIM = expand('$HOME/.vim')
+
 "Call plugin config file, if available
 try
     source $VIM/JTVim/pluginconfig.vim
