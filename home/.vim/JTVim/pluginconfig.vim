@@ -16,6 +16,8 @@ Plug 'justinmk/vim-sneak'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-unimpaired'
 Plug 'natebosch/vim-lsc'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-speeddating'
 
 source $VIM/plugconfig/airline.vim
 source $VIM/plugconfig/vim-lsc.vim
@@ -29,8 +31,6 @@ Plug 'nvim-telescope/telescope-fzf-native.nvim'
 Plug 'nvim-lua/plenary.nvim'
 "fuzzy finder
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
-"Code completion
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 source $VIM/plugconfig/telescope.vim
 endif
