@@ -1,1 +1,4 @@
 fish/fish_variables
+
+tmux/plugins/
+tmux/resurrect/
