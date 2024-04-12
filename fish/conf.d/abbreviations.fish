@@ -22,6 +22,8 @@ abbr .... "cd ../../.."
 abbr ..... "cd ../../../.."
 abbr g "git"
 
+abbr :q "exit"
+
 
 abbr -a --position anywhere tz "/mnt/c/Users/tizre/"
 abbr -a --position anywhere firefoxwsl "'/mnt/c/Program Files/Mozilla Firefox/firefox.exe'"
