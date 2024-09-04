@@ -23,6 +23,8 @@ abbr -a --position anywhere firefoxwsl "'/mnt/c/Program Files/Mozilla Firefox/fi
 
 abbr -a --position command config "/usr/bin/git --git-dir=$HOME/.config/.cfg/ --work-tree=$HOME/.config/"
 
+abbr -a --position command configlg "/usr/local/bin/lazygit --git-dir=/home/jtizel/.config/.cfg/ --work-tree=/home/jtizel/.config/"
+
 # set -gx BROWSER 'explorer.exe'
 set -gx BROWSER "powershell.exe /C start"
 
