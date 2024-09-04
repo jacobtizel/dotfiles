@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+#eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 abbr -a -- cosc "cd /mnt/c/Users/tizre/Documents/UBC/COSC\ stuff/"
 abbr -a -- moosft "fortune -n 200 -s | cowsay -f moose | lolcat"
 abbr -a -- moosfort "fortune -n 200 -l | cowsay -f moose | lolcat"
@@ -21,9 +21,13 @@ abbr -a -- ln "ln -i"
 abbr -a --position anywhere tz "/mnt/c/Users/tizre/"
 abbr -a --position anywhere firefoxwsl "'/mnt/c/Program Files/Mozilla Firefox/firefox.exe'"
 
+abbr -a --position command config "/usr/bin/git --git-dir=$HOME/.config/.cfg/ --work-tree=$HOME/.config/"
+
 # set -gx BROWSER 'explorer.exe'
 set -gx BROWSER "powershell.exe /C start"
 
 if status --is-interactive
     fortune -n 200 -s | cowsay -f moose | lolcat
 end
+
+fish_add_path /home/jtizel/.spicetify
