@@ -33,3 +33,6 @@ if status --is-interactive
 end
 
 fish_add_path /home/jtizel/.spicetify
+
+fish_add_path $HOME/.local/bin
+zoxide init --cmd cd fish | source
