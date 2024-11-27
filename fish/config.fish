@@ -8,6 +8,9 @@ abbr -a -- moosft "fortune -n 200 -s | cowsay -f moose | lolcat"
 abbr -a -- moosfort "fortune -n 200 -l | cowsay -f moose | lolcat"
 set -gx EDITOR nvim 
 
+# Ranger will only load local config.
+set -gx RANGER_LOAD_DEFAULT_RC FALSE
+
 abbr -a -- gco git\ checkout
 
 # do not delete / or prompt if deleting more than 3 files at a time #
